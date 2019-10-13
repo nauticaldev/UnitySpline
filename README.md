@@ -19,6 +19,14 @@
  >If your output becomes four-billion, two-hundred ninety-four million, nine-hundred sixty-seven thousand, two-hundred ninety
  >and five
 
+## Requirements
+Needs .NET 4.x for generic reasons
+To enable on your project, navigate to 
+
+> File > Project Settings > Player > Other Settings > Configuration > Api Compatibility Level* 
+
+and then select `.NET 4.x`
+
 
 ## Usage
 Interpolate a rainbow: 
