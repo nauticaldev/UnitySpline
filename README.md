@@ -1,23 +1,23 @@
 # UnitySpline
-    Once upon a time, there was a spline.
-    A spline who was only 60 lines. 
+ Once upon a time, there was a spline.
+ A spline who was only 60 lines. 
 
-    Unity had none, 
-    and that's no fun
+ Unity had none, 
+ and that's no fun
 
-    So I went and added mine.
+ So I went and added mine.
 
-    It does numbers and colors 
-    and vectors just fine
+ It does numbers and colors 
+ and vectors just fine
 
-    But don't get too wild 
-    when using unsigned
+ But don't get too wild 
+ when using unsigned
 
-    I made only one weight scheme,
-    So please don't hate me
+ I made only one weight scheme,
+ So please don't hate me
 
-    If your output becomes four-billion, two-hundred ninety-four million, nine-hundred sixty-seven thousand, two-hundred ninety
-    and five
+ If your output becomes four-billion, two-hundred ninety-four million, nine-hundred sixty-seven thousand, two-hundred ninety
+ and five
 
 
 ## Usage
