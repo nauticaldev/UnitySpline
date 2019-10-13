@@ -38,5 +38,5 @@ rainbow.AddPoint(Color.Red);
 ```
 Get a point on the spline, given a value between 0 and 1
 ```
-color newColor = rainbow.GetPoint(0.5f);
+Color newColor = rainbow.GetPoint(0.5f);
 ```
