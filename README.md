@@ -18,8 +18,9 @@
 >
  >If your output becomes four-billion, two-hundred ninety-four million, nine-hundred sixty-seven thousand, two-hundred ninety
  >and five
-  ![](spline.gif)
 
+ ![](spline.gif)
+ 
 ## Requirements
 Needs .NET 4.x for generic reasons
 To enable on your project, navigate to 
