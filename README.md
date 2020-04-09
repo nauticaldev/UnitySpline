@@ -1,23 +1,33 @@
 # UnitySpline
-    Once upon a time, there was a spline.
-    A spline who was only 60 lines. 
+ >Once upon a time, there was a spline.
+ >A spline who was only 60 lines. 
+>
+ >Unity had none, 
+ >and that's no fun
+>
+ >So I went and added mine.
+>
+ >It does numbers and colors 
+ >and vectors just fine
+>
+ >But don't get too wild 
+ >when using unsigned
+>
+ >I made only one weight scheme,
+ >So please don't hate me
+>
+ >If your output becomes four-billion, two-hundred ninety-four million, nine-hundred sixty-seven thousand, two-hundred ninety
+ >and five
 
-    Unity had none, 
-    and that's no fun
+ ![](spline.gif)
+ 
+## Requirements
+Needs .NET 4.x for generic reasons
+To enable on your project, navigate to 
 
-    So I went and added mine.
+> File > Project Settings > Player > Other Settings > Configuration > Api Compatibility Level* 
 
-    It does numbers and colors 
-    and vectors just fine
-
-    But don't get too wild 
-    when using unsigned
-
-    I made only one weight scheme,
-    So please don't hate me
-
-    If your output becomes four-billion, two-hundred ninety-four million, nine-hundred sixty-seven thousand, two-hundred ninety
-    and five
+and then select `.NET 4.x`
 
 
 ## Usage
@@ -38,5 +48,5 @@ rainbow.AddPoint(Color.Red);
 ```
 Get a point on the spline, given a value between 0 and 1
 ```
-color newColor = rainbow.GetPoint(0.5f);
+Color newColor = rainbow.GetPoint(0.5f);
 ```

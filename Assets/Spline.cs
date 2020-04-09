@@ -28,14 +28,14 @@ namespace Assets
             private float[] t;
             private T[] points;
 
-            public static implicit operator T(CatmullRom v) => ((dynamic)v.points[1] * 2.0f - (dynamic)v.points[2] * 2.0f + (dynamic)v.v0 + (dynamic)v.v1) * v.t[2] + ((dynamic)v.points[1] * -3.0f + (dynamic)v.points[2] * 3.0f - (dynamic)v.v0 * 2.0f - (dynamic)v.v1) * v.t[1] + (dynamic)v.v0 * v.t[0] + (dynamic)v.points[1];
+            public static implicit operator T(CatmullRom v) => ((dynamic)v.points[1] * 2.0f - (dynamic)v.points[2] * 2.0f + (dynamic)v.v0 + (dynamic)v.v1) * v.t[2] + ((dynamic)v.points[1] * -3.0f + (dynamic)v.points[2] * 3.0f - (dynamic)v.v0 * 2.0f - (dynamic)v.v1) * v.t[1] + (dynamic)v.points[1] + (dynamic)v.v0 * v.t[0];
 
             public CatmullRom(ref T[] p, float t_)
             {
                 v0 = ((dynamic)p[2] - (dynamic)p[0]) * 0.5f;
                 v1 = ((dynamic)p[3] - (dynamic)p[1]) * 0.5f;
                 t = new float[3];
-                t[2] = (t[1] = t[0] * (t[0] = t_)) * t[0];
+                t[2] = (t[1] = t_ * (t[0] = t_)) * t_;
                 points = p;
             }
 
