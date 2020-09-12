@@ -1,4 +1,7 @@
-﻿using System;
+//While this code uses the MIT License, I humbly request that you retain this tiny header
+//Original author : Jon Koelzer - https://github.com/nauticaldev 
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
