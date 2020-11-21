@@ -1,3 +1,6 @@
+# Update:
+ - Added new optional Spline.cs with expanded functionality, includes arc length calculations, tangent sampling, uniform tangent sampling, closed or open (looping or not) sampling, and uniform sampling,    
+
 # UnitySpline
  >Once upon a time, there was a spline.
  >A spline who was only 60 lines. 
